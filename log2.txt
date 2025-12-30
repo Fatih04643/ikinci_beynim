@@ -1,0 +1,4 @@
+Analyzing uygulama...                                           
+
+   info - 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion - lib\presentation\pages\add_edit_note_screen.dart:104:68 - deprecated_member_use
+

@@ -1,0 +1,4 @@
+Analyzing uygulama...                                           
+
+   info - Use 'const' with the constructor to improve performance - lib\presentation\pages\dashboard_screen.dart:79:11 - prefer_const_constructors
+

@@ -1,0 +1,5 @@
+Analyzing uygulama...                                           
+
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\core\theme\app_theme.dart:73:16 - argument_type_not_assignable
+   info - Use 'const' with the constructor to improve performance - lib\presentation\pages\dashboard_screen.dart:79:11 - prefer_const_constructors
+
