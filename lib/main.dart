@@ -21,17 +21,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      themeMode: ThemeMode.system, // Respect system setting
-      home: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [Colors.white, Theme.of(context).scaffoldBackgroundColor],
-          ),
-        ),
-        child: const DashboardScreen(),
-      ),
+      themeMode: ThemeMode.system,
+      home: const DashboardScreen(),
     );
   }
 }
